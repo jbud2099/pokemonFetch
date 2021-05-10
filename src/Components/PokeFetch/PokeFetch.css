@@ -22,6 +22,12 @@
   font-size: 3em;
 }
 
+.who{ 
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3em;
+  color: red; 
+}
+
 .pokeWrap{
   align-self: flex-start;
   margin-top: -100px;
@@ -30,6 +36,11 @@
 
 .pokeImg {
   width: 500px;
+  filter: brightness(1);
+}
+
+.pokeImgDark {
+  filter: brightness(0)
 }
 
 .pokeName {
