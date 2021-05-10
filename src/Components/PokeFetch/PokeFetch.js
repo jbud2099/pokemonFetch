@@ -57,7 +57,9 @@ class PokeFetch extends Component {
     return (
       <div className={'wrapper'}>
         <button className={'start'} onClick={() => this.fetchPokemon()}>Start!</button>
+
         <h1 className={"who"}>Who's That Pokemon?:</h1>
+        
         <h1 className={"timer"}>{this.state.pokeTime}</h1>
         <div className={'pokeWrap'}>
           <img className={this.state.pokeTime <= 0 ? "pokeImg" : "pokeImg pokeImgDark" } id={'pokeImg'} src={this.state.pokeSprite} />
